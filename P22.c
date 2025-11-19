@@ -42,8 +42,12 @@ printf("seating chars : \n");
         }
         printf("\n");
     }
+    printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
 return 0;
 }
+
 
 
 
