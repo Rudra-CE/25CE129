@@ -40,4 +40,8 @@ void main()
     printf("total of positive number : %d\n",cp);
     printf("total of odd number : %d\n",co);
     printf("total of even number : %d\n",ce);
+    printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
 }
+
