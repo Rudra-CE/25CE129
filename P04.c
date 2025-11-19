@@ -88,6 +88,11 @@ int main()
     printf(" range: %td to %td\n\n", PTRDIFF_MIN,PTRDIFF_MAX);
 
 
+
+
+    printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
     return 0;
 
 
@@ -96,3 +101,4 @@ int main()
 
 
 }
+
