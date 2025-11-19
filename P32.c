@@ -1,34 +1,29 @@
-#include <stdio.h>
-#include <stdlib.h>
+#include<stdio.h>
 
-int main(void)
+void main()
 {
-    FILE *f;
-    int ch;
+    FILE *f,*t;
+    char ch;
 
-    f = fopen("DEMO.txt", "w");
-    while ((ch = getchar()) != EOF) {
-        putc(ch, f);
+    f=fopen("Note.txt","r");
+    if(f==NULL)
+        printf("cant't open file");
+    else
+    {
+        fseek(f,-1,SEEK_END);
+        while(1)
+        {
+            ch=fgetc(f);
+            printf("%c",ch);
+            if(fseek(f,-2,SEEK_CUR))
+            {
+                break;
+            }
+        }
     }
     fclose(f);
-
-    f = fopen("DEMO.txt", "r");
-    fseek(f, 0, SEEK_END);
-    long n = ftell(f);
-    rewind(f);
-
-    char *s = malloc(n + 1);
-    fread(s, 1, n, f);
-    s[n] = '\0';
-    fclose(f);
-
-    for (long i = n - 1; i >= 0; --i) {
-        putchar(s[i]);
-    }
-
-    free(s);
-      printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Name : Vaghasiya Rudra Hiteshbhai\n");
     printf("Id   : 25CE129\n");
     printf("Batch: C-2\n");
-    return 0;
+
 }
