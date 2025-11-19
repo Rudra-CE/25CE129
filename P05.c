@@ -13,6 +13,9 @@ printf("total illiterate men:%lf\n",TLM=TM-TLM);
 printf("total illiterate women:%lf\n",TLW=TW-TLW);
 
 
-
+printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
 
 }
+
