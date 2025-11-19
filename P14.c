@@ -1,4 +1,4 @@
-#include<stdio.h>
+ #include<stdio.h>
 int main()
 {
 
@@ -10,7 +10,7 @@ int main()
  {
 
 
-    printf("press 1 for withdraw amount :\n press 2 for exit :");
+    printf("\npress 1 for withdraw amount :\n press 2 for exit :");
     scanf("%d",&choice);
 switch(choice)
 {
@@ -35,7 +35,9 @@ else
 break ;
 case 2 :
     printf("you are exit");
-
+printf("\nName : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
     return 1;
 break;
     default :
@@ -43,36 +45,5 @@ break;
         break;
 }
  }
- printf("Name : Vaghasiya Rudra Hiteshbhai\n");
-    printf("Id   : 25CE129\n");
-    printf("Batch: C-2\n");
+
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
