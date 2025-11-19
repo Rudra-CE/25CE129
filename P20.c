@@ -19,8 +19,11 @@ void main()
 
     missing=esum-asum;
     printf("missing value is :%d",missing);
-
+printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
 }
+
 
 
 
