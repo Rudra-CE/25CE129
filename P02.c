@@ -18,7 +18,9 @@ int main()
     p=2*(l+b);
     printf("the head of the planning department perimeter is: %d ", p);
 
-
+printf("Name : Vaghasiya Rudra Hiteshbhai\n");
+    printf("Id   : 25CE129\n");
+    printf("Batch: C-2\n");
 
      return 0;
 
@@ -32,4 +34,5 @@ int main()
 
     printf("the head of the planning department perimeter: %d ", 2*(a+b));
     */
+
 
